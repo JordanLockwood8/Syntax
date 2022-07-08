@@ -11,12 +11,14 @@ var answer = 4;
 //    response = answer + " is greater than or equal to nine";
 //}
 //write out my ternary operator to match above ,if else
-string response = (answer < 9) ? " is less than nine " : " is greater than or equal to nine ";
+var response = (answer < 9) ? $" {answer} less than nine " : $" {answer} greater than or equal to nine ";
 Console.WriteLine(response);
 Console.WriteLine();
 
+// extra practice was just looking at basic stuff
 string animals = "dogs";
 string name = "gus";
 int age = 3;
 var thisdog = $" this {animals} name is {name} and it is {age}";
+Console.WriteLine(thisdog);
 
